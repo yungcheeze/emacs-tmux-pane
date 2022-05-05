@@ -160,11 +160,11 @@
 
 (defvar -override-keymap
   (let ((map (make-sparse-keymap)))
-    (define-key map (kbd "C-\\") #'omni-window-last)
-    (define-key map (kbd "C-k") #'omni-window-up)
-    (define-key map (kbd "C-j") #'omni-window-down)
-    (define-key map (kbd "C-h") #'omni-window-left)
-    (define-key map (kbd "C-l") #'omni-window-right)
+    (define-key map (kbd "M-\\") #'omni-window-last)
+    (define-key map (kbd "M-k") #'omni-window-up)
+    (define-key map (kbd "M-j") #'omni-window-down)
+    (define-key map (kbd "M-h") #'omni-window-left)
+    (define-key map (kbd "M-l") #'omni-window-right)
     map)
   "keymap overriding existing ones.")
 
